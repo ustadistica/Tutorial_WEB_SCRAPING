@@ -118,3 +118,13 @@ El script desarrollado representa un ejemplo funcional y replicable que puede ad
 
 Este tutorial no solo aporta un ejemplo técnico, sino también una aplicación práctica con impacto ambiental.
 
+
+## 8. Bibliografía
+
+Secretaría Distrital de Ambiente. (2024). Red de Monitoreo de Calidad del Aire de Bogotá (RMCAB). Disponible en: http://rmcab.ambientebogota.gov.co
+
+Python Software Foundation. (2024). Selenium WebDriver Documentation. Disponible en: https://selenium.dev/documentation
+
+
+
+
