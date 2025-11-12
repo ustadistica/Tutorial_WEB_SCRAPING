@@ -74,4 +74,47 @@ El código fue estructurado en diferentes secciones, cada una con un propósito 
 | **10. Finalización del script**                    | Cierre controlado del navegador y verificación de los archivos descargados.                           |
 
 
+## 5. Resultados
+
+El resultado principal fue la automatización exitosa de la descarga de datos del contaminante PM10 desde el portal RMCAB.
+El script permitió obtener archivos Excel correspondientes a cada año entre 2014 y 2024, sin necesidad de intervención manual.
+
+Logros destacados:
+
+Automatización completa del proceso de descarga.
+
+Reducción significativa del tiempo de recolección de datos.
+
+Archivos organizados y estructurados para su posterior análisis estadístico.
+
+Script adaptable para otros contaminantes o promedios temporales.
+
+Este proceso puede integrarse fácilmente a flujos de trabajo de análisis ambiental, optimizando el manejo de información y fomentando la transparencia en el uso de datos abiertos.
+
+
+## 6. Análisis de Resultados
+
+El uso de Selenium WebDriver demostró ser una solución efectiva para sitios con estructuras dinámicas y dependientes de menús desplegables.
+El script consiguió replicar con precisión la interacción humana con el portal RMCAB, incluyendo selección de fechas, estaciones y formatos de exportación.
+
+Desde el punto de vista técnico:
+
+Se garantizó la automatización total del flujo de descarga.
+
+La estructura modular del código permite su mantenimiento y ampliación.
+
+El proceso puede ejecutarse periódicamente para mantener bases de datos actualizadas.
+
+Desde una perspectiva aplicada, el tutorial demuestra cómo las técnicas de Web Scraping pueden integrarse al trabajo estadístico y ambiental, abriendo la puerta a la creación de sistemas de monitoreo y análisis en tiempo real.
+
+
+## 7. Conclusiones
+
+El Web Scraping es una herramienta potente para la recolección automatizada de datos ambientales.
+
+El uso de Selenium permite manejar interfaces web complejas, simulando la interacción de un usuario real.
+
+El script desarrollado representa un ejemplo funcional y replicable que puede adaptarse a otras fuentes de información pública.
+
+Este tutorial no solo aporta un ejemplo técnico, sino también una aplicación práctica con impacto ambiental.
 
