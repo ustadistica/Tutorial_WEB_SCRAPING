@@ -41,3 +41,37 @@ Configurar dinámicamente los periodos de descarga de datos por año.
 
 Documentar el proceso para su comprensión y replicabilidad.
 
+
+## 4. Metodología
+
+### 4.1 Herramientas y Entorno de Trabajo
+
+
+| Herramienta            | Descripción                                                        |
+| ---------------------- | ------------------------------------------------------------------ |
+| **Python 3.11**        | Lenguaje de programación utilizado para desarrollar el script.     |
+| **Selenium**           | Librería principal que automatiza la interacción con el navegador. |
+| **webdriver_manager**  | Instala y gestiona automáticamente el controlador de Chrome.       |
+| **Google Chrome**      | Navegador utilizado para realizar las automatizaciones.            |
+| **Visual Studio Code** | Entorno de desarrollo empleado para escribir y ejecutar el código. |
+
+
+### 4.2 Proceso de Desarrollo del Script
+
+El código fue estructurado en diferentes secciones, cada una con un propósito específico:
+
+| Paso                                               | Descripción                                                                                           |
+| -------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| **1. Librerías utilizadas**                        | Importación de las dependencias necesarias (Selenium, time, Keys, etc.).                              |
+| **2. Configuración del navegador**                 | Inicialización de `webdriver` con opciones de descarga y manejo de permisos.                          |
+| **3. Acceso a la página RMCAB**                    | Apertura automática del sitio web de la red de monitoreo.                                             |
+| **4. Selección del formato de salida (Excel)**     | Interacción con el elemento de descarga.                                                              |
+| **5. Selección del tipo de información**           | Elección del módulo “Calidad del aire”.                                                               |
+| **6. Selección de estaciones y contaminante PM10** | Uso de comandos de Selenium para hacer clic en los selectores y elegir las opciones correspondientes. |
+| **7. Selección del promedio temporal**             | Configuración del tipo de promedio (diario, horario, etc.).                                           |
+| **8. Bucle de descarga por años**                  | Iteración entre los años 2014 y 2024, definiendo fechas de inicio y fin.                              |
+| **9. Ejecución de descarga**                       | Simulación del clic en el botón “Mostrar en Excel” y espera de la descarga.                           |
+| **10. Finalización del script**                    | Cierre controlado del navegador y verificación de los archivos descargados.                           |
+
+
+
