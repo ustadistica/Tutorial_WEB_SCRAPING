@@ -1,0 +1,33 @@
+
+#  Web Scraping — Guía resumida (DOCUMENTACIÓN)
+
+**Descripción:**  
+Documento guía con el flujo estándar para realizar Web Scraping con Python
+
+---
+
+## Requisitos previos
+- Python 3.x instalado
+- Editor de código (VS Code, PyCharm, etc.)
+- Librerías recomendadas: `requests`, `beautifulsoup4`, `pandas`
+
+---
+
+
+### 1) Definir el objetivo
+- Determinar **qué datos** se necesita y **para qué**.
+- Identificar las URLs o la sección del sitio a scrapear.
+- Evalúar si los datos están disponibles en una API pública.
+- Revisar políticas y legalidad
+
+
+### 2) Inspeccionar la página (estructura HTML)
+- Abrir la página en el navegador *Inspeccionar*.
+- Localizar las etiquetas que contienen la información (ej.: `<table>`, `<div class="item">`, `<span class="price">`).
+- Anotar el camino CSS/XPath o las clases/IDs a usar.
+
+### 4) Preparar entorno y dependencias (documentación)
+- En el entorno real:  
+  ```bash
+  pip install requests beautifulsoup4 pandas
+
